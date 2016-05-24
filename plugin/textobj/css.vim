@@ -5,8 +5,8 @@ endif
 call textobj#user#plugin('css', {
 \      '-': {
 \        '*sfile*': expand('<sfile>:p'),
-\        'select-a': 'ac',  '*select-a-function*': 's:select_a',
-\        'select-i': 'ic',  '*select-i-function*': 's:select_i'
+\        'select-a': 'acc',  '*select-a-function*': 's:select_a',
+\        'select-i': 'icc',  '*select-i-function*': 's:select_i'
 \      }
 \    })
 
